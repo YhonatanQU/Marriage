@@ -11,14 +11,9 @@
     src: url(./fonts/Lovely\ Valentine\ Script.ttf);
 }
 
-@font-face {
-    font-family: "Lovely Valentine Sans";
-    src: url();
-}
-
 :root{
     /* COLORS */
-    
+
     --bourbon-50: #faf7ec;
     --bourbon-100: #f5ebcc;
     --bourbon-200: #ebd79d;

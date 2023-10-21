@@ -1,0 +1,51 @@
+@import url(./root.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.first-section {
+    background: var(--bourbon-300);
+    background-image: url(../img/slide_first-section.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 1.5em 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+}
+
+.title_first-section,
+.subtitle_first-section,
+.arrow_first-section{
+    background: transparent;
+   
+
+}
+
+.title_first-section{
+    font-family: var(--font-primary);
+    font-size: 3.5em;
+    font-weight: 80;
+    color: var(--bourbon-500);
+}
+
+.subtitle_first-section{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: var(--black-500);
+}
+
+.arrow_first-section{
+    color: var(--black-500);
+}
