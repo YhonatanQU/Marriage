@@ -1,0 +1,6 @@
+{
+    "reescribe" : {
+        "source" : "/(.*)",
+        "destination" : "/"
+    }
+}
